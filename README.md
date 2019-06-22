@@ -46,3 +46,7 @@ Androids studio will be used for making the application. Github will be used for
  
 Monetization: 
 We will have a monthly subscription for the parent who will track their child. If they want to track more than one child, they have to pay extra in the monthly subscription per child they want to add. 
+There will be in app advertisements such as ad banners which will constantly be there at the bottom of the screen. There will be video ads which they can see to earn points and then redeem the points to pay for the subscription of increasing the number of children. The number of videos will be set in such a way that the total revenue from the videos will be a bit higher than what they would have paid for the subscription.
+Payment methods will be Credit Card system where they will add they will credit card number and every month from the day they start, a notification will come whether they want to pay for another month or not.
+The customers will also be able to pay with Bkash and Ucash since these are very common in Bangladesh.
+
