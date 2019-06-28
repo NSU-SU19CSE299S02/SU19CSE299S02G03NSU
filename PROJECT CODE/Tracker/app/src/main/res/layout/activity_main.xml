@@ -12,13 +12,15 @@
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:hint="@string/username"
+        android:drawableLeft="@drawable/download"
         android:layout_marginTop="300dp"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:hint="@string/password"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/pass2"
+        android:hint="@string/password" />
 
     <Button
         android:layout_width="wrap_content"
