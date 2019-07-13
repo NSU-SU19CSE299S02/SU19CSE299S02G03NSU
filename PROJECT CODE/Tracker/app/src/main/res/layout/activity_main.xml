@@ -30,14 +30,16 @@
         android:hint="@string/password" />
 
     <Button
+        android:id="@+id/Login_Button"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:text="@string/login"/>
 
-    <TextView
+    <Button
+        android:id="@+id/Registration_Button"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="10dp"
         android:textStyle="bold"
