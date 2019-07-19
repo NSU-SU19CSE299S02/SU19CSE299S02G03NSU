@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Payment_page">
 
-    <View
+    <TextView
         android:id="@+id/view"
         android:layout_width="329dp"
         android:layout_height="638dp"
