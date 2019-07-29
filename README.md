@@ -1,39 +1,25 @@
+<p align="center">
+<img width="300" height="300" src="https://media.licdn.com/dms/image/C560BAQEFJPl7DXD1Dg/company-logo_200_200/0?e=2159024400&v=beta&t=4wzyvb7GBsvMovoet_LGS9uj_Gso_kmfWqCXnqydCDI">
 
-# Project Name: Family Tracker.
+</p>
 
-## Course Number: CSE 299
-
-## Group: 03
-
-## Section: 01
-
-## Semester: Summer2019
-
-## Faculty Name: Shaikh Shawon Arefin Shimon
-
-
-## Submitted by:
-
-
-Name:A. K. M. Mahbub Ullah
-
-ID:1520383042
-
-Email:mahbub.ullah@northsouth.edu
-
-
-Name:Sadaaf Chowdhury	
-
-ID:1631415642	
-
-Email:sadaaf.chowdhury@northsouth.edu
-
-
-
-### Git link: https://github.com/SadaafChowdhury/SU19CSE299S02G03NSU
-
-## Date: 15 June 2019
-
+<p align="center">
+Project Name: Family Tracker. </br> </br>
+Course Number: CSE 299 </br>
+Group: 03 </br>
+Section: 01 </br>
+Semester: Summer2019 </br>
+Faculty Name: Shaikh Shawon Arefin Shimon </br> </br>
+Submitted by: </br> </br>
+Name:A. K. M. Mahbub Ullah </br>
+ID:1520383042</br>
+Email:mahbub.ullah@northsouth.edu</br> </br>
+Name:Sadaaf Chowdhury	</br>
+ID:1631415642	</br>
+Email:sadaaf.chowdhury@northsouth.ed</br> </br>
+Git link: https://github.com/SadaafChowdhury/SU19CSE299S02G03NSU</br> </br>
+Date: 15 June 2019</br>
+</p>
 
 ## Idea: 
 
@@ -67,12 +53,12 @@ The user will have to register first. There will be two kinds of registration. O
 User can track all the places went by the child graphically on the map.
 
 
-# Technology:
+## Technology:
 
 Androids studio will be used for making the application. Github will be used for uploading the parts of the application in one folder. Slack will be used for group discussion. And piazza will be used for class discussion.
 
  
-# Monetization: 
+## Monetization: 
 
 We will have a monthly subscription for the parent who will track their child. If they want to track more than one child, they have to pay extra in the monthly subscription per child they want to add. 
 
