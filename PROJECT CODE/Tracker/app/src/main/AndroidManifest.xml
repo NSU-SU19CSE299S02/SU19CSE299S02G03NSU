@@ -29,9 +29,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".Map_Page"
-            android:label="@string/title_activity_map__page"></activity>
         <activity android:name=".Payment" />
         <activity android:name=".child_version_page" />
         <activity android:name=".Registration_Page" />
