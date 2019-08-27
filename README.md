@@ -71,54 +71,9 @@ The customer will also be able to pay with Bkash and Ucash since these are very 
 
 
 
-Contents
+# 1 Background
 
-1 Backgrounds						 				4
-1.1 Goals . . . . . . . . . . . . . . . . . . . . . . . . 4
-1.2 State of the art . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
-1.3 Use Cases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
-
-2 Functional Description 									6
-2.1 Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-
-3 Operational Instructions 									9
-3.1 System Requirements . . . . . . . . . . . . . . . . . . . . . . . . 9
-3.2 Software . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
-3.3 Hardware . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
-3.4 Architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
-3.4.1 Components . . . . . . . . . . . . . . . . . . . . . . . . . 10
-3.4.2 Software Modules . . . . . . . . . . . . . . . . . . . . . . . 10
-3.4.3 EJB container: description of Entity Bean and the Session 11
-3.4.4 WEB container: description of the JSPs and Servlets . . . 11
-3.4.5 Database: description of the tables and relations . . . . . 16
-3.4.6 Midlet: description of the Java mobile application . . . . 18
-3.4.7 Implementation status . . . . . . . . . . . . . . . . . . . . 19
-3.4.8 Communication between modules . . . . . . . . . . . . . . 19
-3.4.9 Package's structure . . . . . . . . . . . . . . . . . . . . . . 20
-
-4 User's guide											 21
-4.1 Installation procedures . . . . . . . . . . . . . . . . . . . . . . . . 21
-4.2 Download and _les locations . . . . . . . . . . . . . . . . . . . . . 22
-4.3 Tutorial . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
-4.3.1 Web Client . . . . . . . . . . . . . . . . . . . . . . . . . . 23
-4.3.2 Midget . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
-
-5 Evaluation 											25
-5.1 Adherence with the specification . . . . . . . . . . . . . . . . . . 25
-5.2 Tests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
-5.3 Known Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
-
-6 Future Works 										27
-6.1 To do . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
-6.2 Possible extensions . . . . . . . . . . . . . . . . . . . . . . . . . . 28
-
-7 Project Management					 				30
-7.1 Team composition . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-7.2 Individual job description . . . . . . . . . . . . . . . . . . . . . . 30
-7.3 Effective individual contributions . . . . . . . . . . . . . . . . . 31
-1 Backgrounds
-
-1.1	Goals
+## 1.1	Goals
 
 Security is very important in some activities. Freeride, mountain walking or climbing, paragliding are those where accidents can be serious or fatal. Having the possibility to follow physically the position of a person on regular basis can be comfortable for family. Sometimes children does get lost or can get in danger or if we want to monitor where they want to go then we can track them with this tracker. The project is meant to propose a simple and portable solution for children to get traced. The application is web based and should be available for every people who have the possibility to
 
@@ -130,24 +85,18 @@ This concept is not new and a lot of applications involving GPS are available on
 
 
 
-1.2	State of the art
+## 1.2	State of the art
 
 As mentioned above, there are already a lot of applications which use the geo-positioning.
 Garmin, one of the famous GPS manufacturer, proposes maps of almost every countries in the world ready to be download into their panel of GPS devices. Different kind of applications for different kind of public: road\ maps and tracking, topologic maps for technical job like geologist (for instance), light’s map for pilots, etc. Also it exist, for mountain activities like freeride, hiking, and those automatic signaling systems which switch on as soon as the rider get caught by an avalanche for example. It transmits a radio signal to the closest relay and indicate the exact position of the victim. It helps for the search and often save lives. The portable TomTom GPS proposes a full navigation system with vocal indication. The list of geo-positioning applications is huge and a simple search on the Internet gives hundred web sites talking about the topic.
 
 
 
-Use Case: 
+# Use Case: 
 
 
-
-
-
-
-
-
-
-
+<p align="center">
+<img width="300" height="300" src="https://github.com/SadaafChowdhury/SU19CSE299S02G03NSU/blob/master/Mockup/User%20story.PNG?raw=true">
 
 
 The figure shows the use cases for the application. There are 3 actors, 10 use cases which represent for different action what actors can do with the system. The use case Start a track is in fact 2 use cases. A track can be started from the web client or from the mobile application (cell phone application). The use case Send a position is only available from the mobile application. We will see in the architecture what is done where (mobile vs server application).
@@ -155,13 +104,13 @@ The figure shows the use cases for the application. There are 3 actors, 10 use c
 
 
 
-2	Functional Description
+# 2	Functional Description
 
-2.1	Requirements
+## 2.1	Requirements
 
 The application will follow the use cases described in figure. All use cases are now described formally. Within the 3 actors, the manager has a special role and is automatically created with the user Id 1. It can do exactly what a standard user can do but has special rights that the others don't have. The application will allow to do: Creation of users. Any user who wants to be followed needs to be register in the system first. The application will offer a interface to enter the following
 
-Data:
+# Data:
 
 1. First Name
 2. Last Name
