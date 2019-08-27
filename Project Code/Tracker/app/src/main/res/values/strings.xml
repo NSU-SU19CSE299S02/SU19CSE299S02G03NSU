@@ -5,4 +5,5 @@
     <string name="username">Username</string>
     <string name="register">Register</string>
     <string name="title_activity_map__page">Map</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
