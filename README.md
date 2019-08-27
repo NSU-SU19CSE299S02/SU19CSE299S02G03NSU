@@ -161,19 +161,12 @@ _ Internet access
 
 ## 3.2	Software
 
-The OS where all the following were installed is Windows XP sp2:
+The OS where all the following were installed is Windows 10 :
 
 1. J2EE Application Server: Sun Java System Application Server Platform
     Edition 8.1 2005Q1
 2. Enterprise Java Beans 2.1
-3. Java Midget: SUN J2ME Wireless Tool Kit 2.2
-4. Point Base free Version: 5.2 ECF build 294
-5. Test Browsers: Fire Fox 1.0.7, Internet Explorer
-6. Java VM: J2SE Version 1.5.0 (build 1.5.0 06 b05)
-    In addition, we have used Google Earth (v3.0) Release Notes - November, 2005
-    (v3.0.07xx). The Development platform is Eclipse Version: 3.1.1. To build and
-Deploy the application Xdoclet and Ant script _le are used.
-
+3. android studio
 
 
 ## Functionality: 
