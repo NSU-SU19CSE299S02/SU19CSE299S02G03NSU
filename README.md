@@ -133,11 +133,11 @@ If a new track is started from the mobile application, the user must provide:
 2. Password
 
 
-3	Operational Instructions
+# 3 Operational Instructions
 
 The architecture of project is based on android and technology. The mobile application is developed in Java Edition.
 
-3.1	System Requirements
+## 3.1	System Requirements
 
 The system needs different hardware and software components:
 
@@ -154,7 +154,7 @@ _ Internet access
 
 
 
-3.2	Software
+## 3.2	Software
 
 The OS where all the following were installed is Windows XP sp2:
 
@@ -171,7 +171,7 @@ Deploy the application Xdoclet and Ant script _le are used.
 
 
 
-Functionality: 
+## Functionality: 
 
 First the parent must create an account. The children have to register as children. The parent can find the children with a code. Each children has a different access code. 
 
@@ -182,21 +182,9 @@ First the parent must create an account. The children have to register as childr
 
 
 
-		Figure: Code_input form.
+<p align="center">		Figure: Code_input form. </p>
 
-Parants and child will need to register.
-
-
-
-
-
-
-
-
-
-
-
-
+#### Parants and child will need to register.
 
 
 <p align="center">
@@ -204,39 +192,14 @@ Parants and child will need to register.
 
 
 
-
-
-
-
-
-
-			Figure: Register form.
-
-
-
-
-
-
-
+<p align="center">			Figure: Register form. </p>
 
 
 <p align="center">
 <img width="300" height="300" src="https://github.com/SadaafChowdhury/SU19CSE299S02G03NSU/blob/master/Mockup/Sign%20in.png?raw=true">
 
 
-
-
-
-
-
-
-
-
-				Figure: SignIn form.
-
-
-
-
+<p align="center">				Figure: SignIn form. </p>
 
 
 
@@ -244,11 +207,5 @@ Parants and child will need to register.
 <img width="300" height="300" src="https://github.com/SadaafChowdhury/SU19CSE299S02G03NSU/blob/master/Mockup/payment.png?raw=true">
 
 
-
-
-
-
-
-
-				Figure: Payment form.
+<p align="center">				Figure: Payment form. </p>
 
